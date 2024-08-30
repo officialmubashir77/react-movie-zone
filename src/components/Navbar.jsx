@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import 'flowbite';
+
 
 const Navbar = ({ onSearch }) => {
   const [searchQuery, setSearchQuery] = useState('');
