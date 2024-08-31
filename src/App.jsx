@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import Movie from './pages/MovieZone/Movie'
+import { CustomNavbar } from './components/CustomNavbar';
+
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -11,7 +13,7 @@ function App() {
   };
   return (
   <>
-    <Navbar onSearch={handleSearch} />
+    <CustomNavbar onSearch={handleSearch} />
     <Movie searchQuery={searchQuery}/>
   </>
   )
