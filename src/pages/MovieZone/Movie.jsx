@@ -26,7 +26,7 @@ const Movie = ({ searchQuery }) => {
       <div className="container px-5 py-16 mx-auto">
         {/* Filter buttons */}
         <div className="mb-8">
-          <div className="flex space-x-4 flex-wrap gap-1">
+          <div className="flex flex-wrap gap-2">
             {categories.map(category => (
               <button
                 key={category}

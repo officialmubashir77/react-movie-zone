@@ -11,17 +11,17 @@ export function CustomNavbar({ onSearch }) {
   };
 
   return (
-    <Navbar fluid={true} rounded={true} className="container mx-auto">
-      <Navbar.Brand href="https://flowbite-react.com">
+    <Navbar fluid={true} rounded={true} className="container mx-auto px-[1.25rem]">
+      <Navbar.Brand href="/">
         <img src="https://flowbite-react.com/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite React
+          MI PORTFOLIO
         </span>
       </Navbar.Brand>
 
       <Navbar.Toggle />
       
-      <div className="flex items-center md:w-1/4 w-full">
+      <div className="flex items-center md:w-1/4 w-full mt-3 md:mt-0">
         {/* Search input for both small and large screens */}
         <div className="relative flex-grow md:flex md:w-1/2 md:mx-auto">
           <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
