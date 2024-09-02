@@ -3,6 +3,7 @@ import './App.css'
 // import Navbar from './components/Navbar'
 import Movie from './pages/MovieZone/Movie'
 import { CustomNavbar } from './components/CustomNavbar';
+import { BottomFooter } from './components/BottomFooter';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   <>
     <CustomNavbar onSearch={handleSearch} />
     <Movie searchQuery={searchQuery}/>
+    <BottomFooter/>
   </>
   )
 }
